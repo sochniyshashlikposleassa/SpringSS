@@ -9,7 +9,7 @@
 <form th:method="POST" th:action="@{/edit/{id}(id=${user.getId()})}" th:object="${user}">
     <label for="name">Name:</label>
     <input type="text" th:field="*{firstName}" id="name"/>
-    <label for="last name">Last name:</label>
+    <label for="last name">Surname:</label>
     <input type="text" th:field="*{lastName}" id="last name"/>
     <label for="email">Email:</label>
     <input type="text" th:field="*{email}" id="email"/>
