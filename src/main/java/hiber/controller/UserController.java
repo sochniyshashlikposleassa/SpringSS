@@ -44,6 +44,7 @@ public class UserController {
         return "edit";
     }
 
+    //com
     @PostMapping("/edit")
     public String update(@ModelAttribute("user") User user) {
         userService.update(user);
